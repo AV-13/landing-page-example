@@ -5,7 +5,7 @@ cat <<'EOF' > Jenkinsfile
           stage('Checkout') {
               steps {
                   git url:
-  'https://github.com/TON-USERNAME/landing-page-example.git', branch: 'main'
+  'https://github.com/AV-13/landing-page-example.git', branch: 'main'
               }
           }
           stage('Deploy') {
